@@ -1,0 +1,18 @@
+\lstdefinestyle{myCustomMatlabStyle}{
+  language=Matlab,
+  stepnumber=1,
+  numbersep=10pt,
+  tabsize=4,
+  showspaces=false,
+  showstringspaces=false
+}
+\lstset{basicstyle=\footnotesize,style=myCustomMatlabStyle}
+\begin{lstlisting}
+function [r] = RootFinder(f)
+% f is the coefficients of the polynomial we want to solve
+% f should be in descending order
+% r is the complex roots of the polynomial
+
+r = roots(f);
+
+\end{lstlisting}
